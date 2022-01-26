@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+} 
 /* HTML5 display-role reset for older browsers */
 /* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -45,11 +45,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */ */
+}  */ 
 /* Meyer's Reset */
 
 * {
-    font-family: "Comic Sans MS", "Brush Script MT"; 
+    font-family: "Andale Mono", "DejaVu Sans Mon"; 
+	border: 1px solid red
 }
 
 nav a{
@@ -65,23 +66,35 @@ nav a{
 
 .visit{
     background-color: orangered;
- }
+}
 
  .learn{
     background-color: skyblue;
- }
+}
 
  .involved{
     background-color: yellow;
- }
-
-img.headerpic {
-    height: 300px;
-	border-radius: 50%;
-	float: right;
 }
 
-header h1{
-	font-size: 48px;
-	font-family: "Brush Script MT", "Comic Sans MS";
+header img{
+	border-radius: 50%;
+	height: 250px;
+	float: left;
+	align-content: center;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+.title{
+	width: 100%
+	text-align: center;
+
+}
+.title h1 {
+	font-size: 5rem;
+	font-family: "Marker Felt", Chalkduster, Impact;
+}
+
+header p{
+	
 }
